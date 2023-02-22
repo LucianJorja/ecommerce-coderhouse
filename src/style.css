@@ -41,3 +41,8 @@
 .nav li:hover{
     background-color: aquamarine;
 }
+
+.shop-cart{
+    display: flex;
+
+}

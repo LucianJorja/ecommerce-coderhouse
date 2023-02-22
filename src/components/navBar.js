@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import CartWidget from './CartWidget';
 export default function NavBar(){
 
 
@@ -15,7 +14,9 @@ export default function NavBar(){
             <li>
                 <a href="Pantalones">Pantalones</a>
             </li>
-            <li><a href="#"><FontAwesomeIcon icon={faShoppingCart} /></a></li>
+            <li>
+                <CartWidget/>
+            </li>
         </ul>
     </nav>
 }
