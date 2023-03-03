@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Ubuntu:ital,wght@1,300&display=swap');
+
+.counter{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.574) 0px 5px 10px 0px;
+}
+
+.button{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    border-style: inherit;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.
+.number{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
+    font-weight: bolder;
+    
+}
+.addToCart{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #7f8c8d; ;
+    border-style: inherit;
+}
+.addToCart:hover{
+    cursor: pointer;
+}
