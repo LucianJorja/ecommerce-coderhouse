@@ -21,10 +21,10 @@
 .button:hover{
     cursor: pointer;
 }
-.
-.number{
+
+.number-counter{
     font-family: 'Tilt Neon', cursive;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px 10px 0px 10px;
     font-weight: bolder;
     

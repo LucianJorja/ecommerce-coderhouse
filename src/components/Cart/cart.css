@@ -1,0 +1,17 @@
+.warning{
+    margin: 1rem;
+    font-size: 20px;
+}
+.route:hover{
+    color: rgb(255, 0, 0);
+}
+.purchase{
+    font-size: 25px;
+    margin: 1rem;
+}
+.total{
+    font-weight: 600;
+}
+.checkout:hover{
+    color: rgb(255, 0, 0);
+}

@@ -29,3 +29,10 @@
 .content{
     margin-left: 20px;
 }
+
+.goToCart{
+    font-size: 20px;
+}
+.goToCart:hover{
+    color: aquamarine;
+}

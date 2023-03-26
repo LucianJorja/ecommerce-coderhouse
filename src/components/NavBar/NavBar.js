@@ -13,7 +13,7 @@ export default function NavBar(){
                 <NavLink to= "/categoria/pantalones" >Pantalones</NavLink>
             </li>
             <li>
-                <NavLink to=''>
+                <NavLink to="/cart">
                     <CartWidget/>
                 </NavLink>
             </li>

@@ -7,10 +7,11 @@
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
-    margin: 20px 10px;
+    margin: 20px 50px 20px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.574) 0px 5px 10px 0px;
     color: black;
+    font-size: 20px;
 }
 
 .product:hover{
@@ -26,5 +27,5 @@
     height: 359px;
     width: 100%;
     border-radius: 5px;
-    margin-right: 10px
+    margin-right: 10px;
 };
