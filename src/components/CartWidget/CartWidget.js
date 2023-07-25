@@ -4,13 +4,16 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { useCartContext } from "../../context/CartContext";
 
 
-export default function CartWidget(){
+const CartWidget = () => {
     const { totalProducts } = useCartContext();
 
-    return <div className="shop-cart">
-        <FontAwesomeIcon icon={faShoppingCart} />
-        <span id='cart-counter'>{totalProducts() || ''} </span>
-    </div>
+    return (
+        <div className="shop-cart">
+            <FontAwesomeIcon icon={faShoppingCart} />
+            <span id='cart-counter'>{totalProducts() || ''} </span>
+        </div>
+    )
     
 
 }
+export default CartWidget;
